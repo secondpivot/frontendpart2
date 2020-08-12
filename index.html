@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather app</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="part1">
+      <div class="part11">
+        <div class="part111">
+          <div class="placeicon">
+            <img src="./images/auckland.svg" width="110" height="100" />
+          </div>
+          <div class="inputplace">
+            <select name="cities" id="cities">
+              <option value="Auckland">Auckland</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Moscow">Moscow</option>
+            </select>
+          </div>
+        </div>
+        <div class="part112">
+          <div class="time">
+            <div class="clock">
+              <div class="time1">
+                10:10
+              </div>
+              <div class="time2">
+                :44
+              </div>
+              <div class="image1">
+                <img src="images/amState.svg" width="50px" height="50px" />
+              </div>
+            </div>
+            <div class="date">01-Mar-2020</div>
+          </div>
+        </div>
+      </div>
+      <div class="part12">
+        <div class="part121">
+          <div class="temp">
+            <div class="celcius" id="tempc">Temp C</div>
+            <div class="celciusvalue" id="tempc">25 C</div>
+          </div>
+          <div class="humidity">
+            <div class="celcius" id="humidity">Humidity</div>
+            <div class="celciusvalue" id="humidity">26%</div>
+          </div>
+        </div>
+        <div class="part122">
+          <div class="temp">
+            <div class="celcius" id="tempf">Temp F</div>
+            <div class="celciusvalue" id="tempf">78 F</div>
+          </div>
+          <div class="humidity">
+            <div class="celcius" id="pre">Precipitation</div>
+            <div class="celciusvalue" id="pre">0%</div>
+          </div>
+        </div>
+      </div>
+      <div class="part13">
+        <div class="sec1">
+          <p class="no">Now</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">6</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+        <div class="sec1">
+          <p class="no">11AM</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">7</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+        <div class="sec1">
+          <p class="no">12PM</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">7</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+        <div class="sec1">
+          <p class="no">1PM</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">7</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+        <div class="sec1">
+          <p class="no">2PM</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">7</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+        <div class="sec1">
+          <p class="no">3PM</p>
+          <p class="no">|</p>
+          <img src="images/cloudyIcon.svg" />
+          <p class="no">7</p>
+        </div>
+        <div class="sec2">
+          <p class="cc" id="secc">|</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="part2">
+      <p class="sec21">Top cities around the World</p>
+      <img class="sec22" src="images/sunnyIcon.svg" />
+      <img class="sec22" src="images/snowflakeIcon.svg" />
+      <img class="sec22" src="images/cloudyIcon.svg" />
+      <p class="sec23">Display Top</p>
+      <div class="sec24"><input type="number" /></div>
+    </div>
+    <div class="part3">
+      <div class="city1">
+        <div class="city11">
+          <div class="city111"><p>Auckland</p></div>
+          <div class="city112">
+            <img src="images/sunnyIcon.svg" />
+            <p div class="cf">25 C</p>
+          </div>
+        </div>
+        <div class="city12">
+          <p>10.10 AM</p>
+        </div>
+
+        <div class="city13">
+          <div class="city131">
+            <div class="city1311">
+              <img src="images/rainyIcon.svg" class="impa" />
+              <p class="cf">53%</p>
+            </div>
+            <div class="city1312">
+              <img src="images/precipitationIcon.svg" class="impa" />
+              <p class="cf">16%</p>
+            </div>
+          </div>
+          <div class="city132">
+            <img src="images/auckland.svg" height="150px" width="100px" />
+          </div>
+        </div>
+      </div>
+
+      <div class="city1">
+        <div class="city11">
+          <div class="city111"><p>Auckland</p></div>
+          <div class="city112">
+            <img src="images/sunnyIcon.svg" />
+            <p div class="cf">25 C</p>
+          </div>
+        </div>
+        <div class="city12">
+          <p>10.10 AM</p>
+        </div>
+
+        <div class="city13">
+          <div class="city131">
+            <div class="city1311">
+              <img src="images/rainyIcon.svg" class="impa" />
+              <p class="cf">53%</p>
+            </div>
+            <div class="city1312">
+              <img src="images/precipitationIcon.svg" class="impa" />
+              <p class="cf">16%</p>
+            </div>
+          </div>
+          <div class="city132">
+            <img src="images/auckland.svg" height="150px" width="100px" />
+          </div>
+        </div>
+      </div>
+      <div class="city1">
+        <div class="city11">
+          <div class="city111"><p>Auckland</p></div>
+          <div class="city112">
+            <img src="images/sunnyIcon.svg" />
+            <p div class="cf">25 C</p>
+          </div>
+        </div>
+        <div class="city12">
+          <p>10.10 AM</p>
+        </div>
+
+        <div class="city13">
+          <div class="city131">
+            <div class="city1311">
+              <img src="images/rainyIcon.svg" class="impa" />
+              <p class="cf">53%</p>
+            </div>
+            <div class="city1312">
+              <img src="images/precipitationIcon.svg" class="impa" />
+              <p class="cf">16%</p>
+            </div>
+          </div>
+          <div class="city132">
+            <img src="images/auckland.svg" height="150px" width="100px" />
+          </div>
+        </div>
+      </div>
+      <div class="city1">
+        <div class="city11">
+          <div class="city111"><p>Auckland</p></div>
+          <div class="city112">
+            <img src="images/sunnyIcon.svg" />
+            <p div class="cf">25 C</p>
+          </div>
+        </div>
+        <div class="city12">
+          <p>10.10 AM</p>
+        </div>
+
+        <div class="city13">
+          <div class="city131">
+            <div class="city1311">
+              <img src="images/rainyIcon.svg" class="impa" />
+              <p class="cf">53%</p>
+            </div>
+            <div class="city1312">
+              <img src="images/precipitationIcon.svg" class="impa" />
+              <p class="cf">16%</p>
+            </div>
+          </div>
+          <div class="city132">
+            <img src="images/auckland.svg" height="150px" width="100px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part4">
+      <p class="part41">Cities across continents at a glance</p>
+      <p class="part42">continent name</p>
+      <img class="part43" src="images/arrowDown.svg" height="30" width="30" />
+      <p class="part44">Temperature</p>
+      <img class="part45" src="images/arrowUp.svg" height="30" width="30" />
+    </div>
+    <div class="part5">
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+      <div class="part51">
+        <div class="part511">
+          <p class="xy">Asia</p>
+          <p class="yx">28 C</p>
+        </div>
+        <div class="part512">
+          <p class="nb">Delhi 10:10 AM</p>
+          <div class="part522">
+            <img src="images/rainyIcon.svg" />
+            <p class="bn">53%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>

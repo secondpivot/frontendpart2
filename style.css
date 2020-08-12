@@ -1,0 +1,264 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(./images/background.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.part1 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.part11 {
+  flex: 0.5;
+}
+.part111 {
+  display: flex;
+  justify-content: flex-start;
+}
+.placeicon {
+  flex: 0.9;
+  align-self: center;
+}
+.inputplace {
+  flex: 1;
+  align-self: center;
+}
+select {
+  background-color: black;
+  width: 150px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.time {
+  padding-left: 50%;
+}
+.clock {
+  display: flex;
+  justify-content: start;
+}
+.time1 {
+  align-self: flex-end;
+  font-size: 25px;
+  color: yellow;
+}
+.time2 {
+  align-self: flex-end;
+  color: yellow;
+}
+.date {
+  color: white;
+}
+
+.part12 {
+  flex: 0.5;
+}
+.part121,
+.part122 {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.celcius {
+  color: white;
+  font-size: 20px;
+}
+.celciusvalue {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#pre,
+#humidity {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: white;
+  padding-left: 40px;
+  flex: 1;
+}
+#tempc,
+#tempf {
+  padding-right: 20px;
+  flex: 1;
+}
+
+.part13 {
+  flex: 1.2;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+.no {
+  color: white;
+}
+.cc {
+  color: white;
+  position: relative;
+  top: 35px;
+}
+.part2 {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.sec21 {
+  align-self: center;
+  color: white;
+  flex: 7;
+  position: relative;
+  left: 400px;
+  font-size: 25px;
+}
+.sec24,
+.sec23 {
+  align-self: center;
+  color: white;
+}
+.part3 {
+  width: 100%;
+  height: 270px;
+  background-color: black;
+  display: flex;
+  justify-content: start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.city1 {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(50, 50, 50, 0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.city11 {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+}
+.city111 {
+  color: white;
+}
+.cf {
+  color: white;
+}
+.city112 {
+  display: inline;
+  display: flex;
+  justify-content: start;
+}
+
+.city12 {
+  color: white;
+}
+.city13 {
+  display: flex;
+  justify-content: start;
+}
+.city131 {
+  padding-right: 60px;
+}
+.city1311 {
+  display: flex;
+  justify-content: start;
+}
+.city1312 {
+  display: flex;
+  justify-content: start;
+}
+.impa {
+  padding-right: 20px;
+}
+.city132 {
+  margin-bottom: 10px;
+}
+.city1:hover {
+  background-color: darkblue;
+}
+.part4 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.part41 {
+  color: white;
+  flex: 6.5;
+  position: relative;
+  left: 400px;
+  font-size: 25px;
+}
+.part42,
+.part44 {
+  color: white;
+  font-size: 25px;
+}
+.part43,
+.part45 {
+  align-self: flex-end;
+}
+.part5 {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.part51 {
+  height: 100px;
+  width: 300px;
+  background-color: rgba(50, 50, 50, 0.7);
+  display: block;
+  border-radius: 7px;
+  padding-right: 0px;
+}
+.part511 {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+.part512 {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.part522 {
+  display: flex;
+  justify-content: flex-start;
+}
+.xy {
+  color: yellow;
+}
+.yx {
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+.nb,
+.bn {
+  color: white;
+}
